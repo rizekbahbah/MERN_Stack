@@ -7,12 +7,7 @@ var peopleArr = [
   { ":firstName": "Jack", "lastName": "bewifejn", "age": 33, "hairColor": "Black" }
 ]
 
-const cx = {
 
-  ":firstName": "jwejnek"
-}
-
-console.log(cx.firstName);
 
 function App() {
   return (

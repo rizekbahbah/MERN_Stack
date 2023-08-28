@@ -20,7 +20,7 @@ const PersonCard = (props) => {
         <div>
             <h1 style={{color:"red"}}>{props.lastName}, {props.firstName}</h1>
             <p>Age: {state.clickCount}</p>
-            <p>Hair Color: {props.hairColor} {state.heighCount} </p>
+            <p>Hair Color: {props.hairColor}  </p>
             <button onClick={incrementAge}>Birthday Button for {props.firstName}</button>
         </div>
     );}
